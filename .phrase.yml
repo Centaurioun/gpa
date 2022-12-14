@@ -1,5 +1,5 @@
 phrase:
-  access_token: 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 #Add your personal access token to authenticate, you can find the steps on how to create one here: https://help.phrase.com/help/access-tokens
+  access_token: 3075d51433f1566701a4773c440963fcd453007e04c6c0d0f2ccf638a6b97686 #Add your personal access token to authenticate, you can find the steps on how to create one here: https://help.phrase.com/help/access-tokens
   project_id: 9ad97c05ae869c5311d0bc0565c61564 #The public Project ID which can be found in the Project Settings (API tab)
   file_format: FORMAT_API_EXTENSION #Find the format you want to use here: https://help.phrase.com/help/supported-platforms-and-formats , access the article and copi the API extension
 
