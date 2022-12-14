@@ -38,7 +38,7 @@ phrase:
 
   pull:
     targets:
-    - file: ./Users/aldorias/Library/CloudStorage/OneDrive-Centaurioun/Documents/Phrase/phrase.yml
+    - file: ./Users/aldorias/Library/CloudStorage/OneDrive-Centaurioun/Documents/Phrase/.phrase.yml
       params:
         file_format: FORMAT_API_EXTENSION (string) #See above. Only required if you deviate from the default format set in the header
         locale_id: tr-TR #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
