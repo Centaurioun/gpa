@@ -3,13 +3,11 @@ phrase:
   project_id: 9ad97c05ae869c5311d0bc0565c61564
   push:
     sources:
-    - file: /tr.po
       params:
         file_format: gettext
         locale_id: 4cfd9763fbc8f8c44e7a1930bac83708
   pull:
     targets:
-    - file: /Users/aldorias/Documents/Repos/gpa/po/tr.po
       params:
         file_format: gettext
         locale_id: 40e677cd055d473e3c8754b69164dc9d
