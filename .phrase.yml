@@ -1,14 +1,15 @@
 phrase:
-  access_token: 3075d51433f1566701a4773c440963fcd453007e04c6c0d0f2ccf638a6b97686 #Add your personal access token to authenticate, you can find the steps on how to create one here: https://help.phrase.com/help/access-tokens
-  project_id: 9ad97c05ae869c5311d0bc0565c61564 #The public Project ID which can be found in the Project Settings (API tab)
+  access_token: 3075d51433f1566701a4773c440963fcd453007e04c6c0d0f2ccf638a6b97686
+  project_id: 9ad97c05ae869c5311d0bc0565c61564
   push:
     sources:
-    - file: gpa/ #Provide the path to the file(s) you want to push here, starting from the location of the configuration file. You can use the placeholders <locale_name>, <locale_code> and <tags> in the path or file-name
+    - file: /tr.po
       params:
-        locale_id: en-US #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
-        #-------------
+        file_format: gettext
+        locale_id: 4cfd9763fbc8f8c44e7a1930bac83708
   pull:
     targets:
-    - file: /Users/aldorias/Documents/Repos/gpa
+    - file: /Users/aldorias/Documents/Repos/gpa/po/tr.po
       params:
-        locale_id: tr-TR #Can be the name (e.g. en-US) or public id (via Language settings -> API) of the locale. Preferred is the public id.
+        file_format: gettext
+        locale_id: 40e677cd055d473e3c8754b69164dc9d
